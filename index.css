@@ -1,0 +1,69 @@
+/* Add CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background: #18172a;
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #18172a;
+}
+.container {
+  width: 70%;
+  padding: 1rem;
+  background: #1f1e33;
+  border-radius: 1rem;
+  margin: 5rem;
+}
+
+.parentbox {
+  display: flex;
+  align-items: center;
+  margin: 0.2rem;
+}
+.firstSection {
+  margin: 1.3rem;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0.27rem;
+}
+.secondSection {
+  background: #18172a;
+  padding: 0.7rem;
+  margin: 1.3rem;
+  border-radius: 10px;
+}
+.thirdSection {
+  margin: 1.3rem;
+}
+.radio {
+  width: 20px;
+  height: 20px;
+  margin: 0.3rem;
+}
+.radioparent {
+  display: flex;
+  align-items: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  margin: 1rem;
+  width: 40%;
+  padding: 0.75rem;
+  background: #726af3;
+  border: 1px solid #726af3;
+  border-radius: 2px;
+}
